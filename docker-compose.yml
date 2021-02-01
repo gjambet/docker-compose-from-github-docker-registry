@@ -1,0 +1,6 @@
+version: '2'
+services:
+  app:
+    image: 'docker.pkg.github.com/gjambet/github-actions-to-github-docker-packages/dummy:latest'
+    ports:
+    - "80:8080"
